@@ -1,0 +1,24 @@
+Project Instructions:
+Nine coins are placed in a 3x3 matrix with some face up and some face down. You can represent the state of the coins using a 3x3 matrix with values 0 (heads) and 1 (tails). Here are some examples:
+000101110
+010001100
+000100001
+
+Each state can also be represented using a binary number. For example, the preceding matrices correspond to the numbers:
+000010000 101001100 110100001
+
+There are a total of 512 possibilities, so you can use decimal numbers 0,1,2,3...,511 to represent all of the states of the matrix.
+Write a program that prompts the user to enter a number between 0 and 511 and displays the corresponding matrix with the characters H and T.
+
+
+Sample Run #1:
+Enter an integer representing the state of the coins: 255
+HTT
+TTT
+TTT
+
+Sample Run #2:
+Enter an integer representing teh state of the coins: 107
+HHT
+THT
+HTT
